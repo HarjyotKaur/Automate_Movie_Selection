@@ -389,4 +389,4 @@ for i in range(0,len(movies)):
 
 
 print ("The best overall rating is", max(compiled_scores['Average_Rating']),"for the movie(s):",list(compiled_scores['title'][compiled_scores['Average_Rating']==max(compiled_scores['Average_Rating'])]))
-print(compiled_scores)
+compiled_scores
