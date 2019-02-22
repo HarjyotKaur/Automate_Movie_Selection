@@ -1,4 +1,4 @@
-<h1><img align="right" width="200" height="150" src="img/logo.png" alt="logo" /> Movie Recommender</h1>
+<h1><img align="right" width="200" height="150" src="img/logo.PNG" alt="logo" /> Movie Recommender</h1>
 
 ## Introduction
 
@@ -40,7 +40,7 @@ The four rating are then aggregated to give an overall score. The four rating ch
 
 The section to fill these variables is marked in the script.
 
-#### Examples
+#### Example
 
 ```
 #declaring file path and variables
@@ -51,9 +51,7 @@ path = os.getcwd()+"\\Twitter_Data\\"
 maxtweets=100
 
 ```
------------------------
 Output
------------------------
 
 ```
 =================== Aquaman ===================
