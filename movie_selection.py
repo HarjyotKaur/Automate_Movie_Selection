@@ -386,3 +386,7 @@ for i in range(0,len(movies)):
     avg_score=round((score1+score2+score3+score4)/4,2)
     scores=[movies[i],years[i],score1,score2,score3,score4,avg_score]
     compiled_scores.loc[i]=scores
+
+
+print ("The best overall rating is", max(compiled_scores['Average_Rating']),"for the movie(s):",list(compiled_scores['title'][compiled_scores['Average_Rating']==max(compiled_scores['Average_Rating'])]))
+compiled_scores
