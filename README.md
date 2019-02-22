@@ -10,16 +10,16 @@ After, having to face this issue inevitably every week, we decided to automate m
 
 The code has been compiled to piece together movie rating from four diverse sources:
 
-- [Twitter](https://twitter.com/)
+- [Twitter](https://twitter.com/)   
 The twitter API has been used to pull tweet data for a movie. Using tweet data a sentiment score is calculated to formulate a social sentiment score for the movie.
 
-- [IMDB](https://www.imdb.com/)
+- [IMDB](https://www.imdb.com/)   
 The IMDB API has been used to pull the rating for the movie given by users on IMDB.
 
-- [Metacritic](https://www.metacritic.com/)  
+- [Metacritic](https://www.metacritic.com/)     
 The IMDB API has been used to pull the rating for the movie given top critics.
 
-- [Rotten Tomatoes](https://www.rottentomatoes.com/)
+- [Rotten Tomatoes](https://www.rottentomatoes.com/)   
 Beautiful Soup has been used to pull the Tomatometer score, it is based on the opinions of hundreds of film and television critics.
 
 The four rating are then aggregated to give an overall score. The four rating chosen factor in multiple opinions about the movie and would help the user to automate this decision.
