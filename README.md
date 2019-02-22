@@ -2,9 +2,9 @@
 
 ## Introduction
 
-We all have sat for hours endlessly googling to narrow down one movie to go with our tab of popcorn. The time and struggle to make that decision is long and sometimes, consumes more time that the duration of the movie.
+We all have sat for hours endlessly googling to narrow down one movie to go with our tab of popcorn. The time and struggle to make that decision is long and sometimes, consumes more time that the duration of the movie itself.
 
-After, having to face this issue inevitably every week, we decided to automate movie selection. A common pattern for movie selection is viewing the trailer, genre, casting, popularity and social opinion of the movie. To inculcate these factors we have scraped and formulated rating from various renowned websites.
+After, having to face this issue inevitably every week, we decided to automate movie selection. A common pattern for movie selection is viewing the rating,  trailer, genre, casting, popularity and social opinion of the movie. To inculcate these factors we have scraped and formulated rating from various renowned websites.
 
 ## Functionality
 
@@ -67,6 +67,9 @@ Fetched Movie Object from IMDB API
 Pulling Tweets
 Fetched100tweets
 Fetched Movie Object from IMDB API
+```
+```
+The best overall rating is 4.00 for the movie(s): ['Incredibles 2']
 ```
 
 |title|year|Sentiment_Score|IMDB_Rating|Metacritic_Rating|Rotten_Tomatoes_Rating|Average_Rating|
