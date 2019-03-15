@@ -1,4 +1,4 @@
-<h1><img align="right" width="200" height="150" src="img/logo.PNG" alt="logo" /> Movie Recommender</h1>
+<h1><img align="right" width="200" height="150" src="img/logo.PNG" alt="logo" /> Movie Selector </h1>
 
 ## Introduction
 
